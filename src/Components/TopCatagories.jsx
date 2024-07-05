@@ -1,9 +1,14 @@
 import React from 'react';
+import { FcElectronics ,  } from "react-icons/fc";
+import { FaCar ,  } from "react-icons/fa";
+
+import { MdTableBar } from "react-icons/md";
+
 
 const categories = [
-  { name: 'Electronics', icon: '📱' },
-  { name: 'Cars', icon: '🚗' },
-  { name: 'Furniture', icon: '🛋️' },
+  { name: 'Electronics', icon: <FcElectronics />  },
+  { name: 'Cars', icon: <FaCar /> },
+  { name: 'Furniture', icon: <MdTableBar /> },
   { name: 'Jobs', icon: '💼' },
   { name: 'Real Estate', icon: '🏠' },
   { name: 'Services', icon: '🛠️' },
