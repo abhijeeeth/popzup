@@ -5,7 +5,7 @@ import 'tailwindcss/tailwind.css';
 
 const App = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center p-4">
+    <div className=" flex flex-col items-center p-4">
       <div className="w-full max-w-md">
         <input
           type="text"
